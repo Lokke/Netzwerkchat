@@ -3,64 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\vecmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\vecmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\vecbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\vecbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucposts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucposts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587B7173-282E-4FA6-872F-255201E167E0}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\vecbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\vecbuddy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|c:\\users\\lokke\\source\\repos\\netzwerkchat\\netzwerkchat\\ucmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BF0EED-B2E9-6265-C71A-ACA3192528BB}|Netzwerkchat\\Netzwerkchat.csproj|solutionrelative:netzwerkchat\\ucmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,38 +73,54 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 99,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 214,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-06-22T11:53:09.166Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "vecMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\vecMessage.cs",
-              "RelativeDocumentMoniker": "Netzwerkchat\\vecMessage.cs",
-              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\vecMessage.cs",
-              "RelativeToolTip": "Netzwerkchat\\vecMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ucPosts.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.Designer.cs",
+              "RelativeDocumentMoniker": "Netzwerkchat\\ucPosts.Designer.cs",
+              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.Designer.cs*",
+              "RelativeToolTip": "Netzwerkchat\\ucPosts.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T10:55:03.715Z",
+              "WhenOpened": "2026-06-23T10:57:59.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ucPosts.cs",
+              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs",
+              "RelativeDocumentMoniker": "Netzwerkchat\\ucPosts.cs",
+              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs*",
+              "RelativeToolTip": "Netzwerkchat\\ucPosts.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:57:49.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ucPosts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs",
+              "RelativeDocumentMoniker": "Netzwerkchat\\ucPosts.cs",
+              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs [Design]*",
+              "RelativeToolTip": "Netzwerkchat\\ucPosts.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:57:49.169Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ucMessage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucMessage.cs",
@@ -112,31 +132,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ucPosts.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucPosts.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucPosts.cs [Design]",
               "RelativeToolTip": "Netzwerkchat\\ucPosts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T09:40:44.491Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T09:40:44.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ucMessages.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessages.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucMessages.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessages.cs [Design]",
               "RelativeToolTip": "Netzwerkchat\\ucMessages.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T09:36:11.383Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T09:36:11.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Form1.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\Form1.cs",
@@ -149,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ucBuddies.cs",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddies.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucBuddies.cs",
@@ -162,19 +180,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "ucBuddies.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddies.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucBuddies.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddies.cs [Design]",
               "RelativeToolTip": "Netzwerkchat\\ucBuddies.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:52:14.146Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T07:52:14.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ucBuddy.cs",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddy.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucBuddy.cs",
@@ -187,31 +204,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ucBuddy.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddy.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucBuddy.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucBuddy.cs [Design]",
               "RelativeToolTip": "Netzwerkchat\\ucBuddy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:21:34.107Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T07:21:34.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Form1.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\Form1.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Form1.cs [Design]",
               "RelativeToolTip": "Netzwerkchat\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:19:55.713Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T07:19:55.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "vecBuddy.cs",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\vecBuddy.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\vecBuddy.cs",
@@ -219,39 +234,37 @@
               "RelativeToolTip": "Netzwerkchat\\vecBuddy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T08:18:40.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T08:18:40.611Z"
             }
           ]
         },
         {
-          "DockedWidth": 286,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 171,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ucMessage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.Designer.cs",
-              "RelativeDocumentMoniker": "Netzwerkchat\\ucMessage.Designer.cs",
-              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.Designer.cs",
-              "RelativeToolTip": "Netzwerkchat\\ucMessage.Designer.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T09:14:33.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ucMessage.cs",
               "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.cs",
               "RelativeDocumentMoniker": "Netzwerkchat\\ucMessage.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.cs",
               "RelativeToolTip": "Netzwerkchat\\ucMessage.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAEwAkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T11:16:05.049Z",
+              "WhenOpened": "2026-06-23T09:23:25.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ucMessage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.Designer.cs",
+              "RelativeDocumentMoniker": "Netzwerkchat\\ucMessage.Designer.cs",
+              "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessage.Designer.cs",
+              "RelativeToolTip": "Netzwerkchat\\ucMessage.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:14:33.476Z",
               "EditorCaption": ""
             },
             {
@@ -262,7 +275,7 @@
               "RelativeDocumentMoniker": "Netzwerkchat\\ucMessages.cs",
               "ToolTip": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\ucMessages.cs",
               "RelativeToolTip": "Netzwerkchat\\ucMessages.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAApwCUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T11:05:04.783Z",
               "EditorCaption": ""

@@ -131,7 +131,7 @@
             ucPosts1.Dock = DockStyle.Bottom;
             ucPosts1.Location = new Point(0, 347);
             ucPosts1.Name = "ucPosts1";
-            ucPosts1.Size = new Size(615, 103);
+            ucPosts1.Size = new Size(615, 64);
             ucPosts1.TabIndex = 1;
             // 
             // contextMenuStrip1
