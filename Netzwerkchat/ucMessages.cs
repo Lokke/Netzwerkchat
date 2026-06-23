@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Windows.Forms;
 
@@ -21,6 +22,11 @@ namespace Netzwerkchat
                 {
                     MessageContent = m.MessageContent
                 };
+
+                message.MessageContent = m.MessageContent;
+                message.Dock = DockStyle.Top;
+                this.panel2.Controls.Add(message);
+                message.BringToFront();
             }
         }
 
@@ -32,6 +38,7 @@ namespace Netzwerkchat
         public ucMessages()
         {
             InitializeComponent();
+    
             this.messagesList.Add(new vecMessage()
             {
                 MessageContent = "foobar 0000fooo0000 barrrrr",
@@ -55,9 +62,11 @@ namespace Netzwerkchat
                 MessageContent = "foobar 3333fooo 33333barrrrr",
             });
 
+            this.generateMessages();
 
-            
-            
+
+
         }
+
     }
 }

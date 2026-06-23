@@ -1,0 +1,53 @@
+﻿using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+
+namespace Netzwerkchat
+{
+    public partial class ucMessage : UserControl
+    {
+        public string MessageContent
+        {
+            set { lblMessage.Text = value; }
+            get { return lblMessage.Text; }
+        }
+
+        public bool IsRight { get; set; } = true;
+        public Color BubbleColor { get; set; } = Color.LightBlue;
+
+        public ucMessage()
+        {
+            InitializeComponent();
+            DoubleBuffered = true;
+        }
+
+        private void ucMessage_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            int pad = 10;
+            int tri = 10;
+
+            GraphicsPath path = new GraphicsPath();
+
+            // Rounded rectangle base
+            path.AddArc(pad, pad, 20, 20, 180, 90);
+            path.AddArc(Width - 30, pad, 20, 20, 270, 90);
+            path.AddArc(Width - 30, Height - 30 - tri, 20, 20, 0, 90);
+            path.AddArc(pad, Height - 30 - tri, 20, 20, 90, 90);
+
+            // Triangle corner
+            if (IsRight)
+            {
+                path.AddLine(Width - 20, Height - tri, Width, Height, Width - 10, Height - tri);
+            }
+            else
+            {
+                path.AddLine(pad + 20, Height - tri, pad - tri, Height, pad + 20 + tri, Height - tri);
+            }
+
+            path.CloseFigure();
+            e.Graphics.FillPath(new SolidBrush(BubbleColor), path);
+        }
+    }
+}

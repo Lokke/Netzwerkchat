@@ -35,10 +35,11 @@
             panel1 = new Panel();
             pictureBox2 = new PictureBox();
             ucBuddy1 = new ucBuddy();
-            ucPosts1 = new ucPosts();
-            contextMenuStrip1 = new ContextMenuStrip(components);
             panel2 = new Panel();
             label1 = new Label();
+            ucPosts1 = new ucPosts();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            ucMessages1 = new ucMessages();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -61,6 +62,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.Controls.Add(ucMessages1);
             splitContainer1.Panel2.Controls.Add(panel2);
             splitContainer1.Panel2.Controls.Add(ucPosts1);
             splitContainer1.Size = new Size(926, 450);
@@ -106,18 +108,6 @@
             ucBuddy1.Size = new Size(307, 73);
             ucBuddy1.TabIndex = 0;
             // 
-            // ucPosts1
-            // 
-            ucPosts1.Location = new Point(3, 306);
-            ucPosts1.Name = "ucPosts1";
-            ucPosts1.Size = new Size(609, 141);
-            ucPosts1.TabIndex = 1;
-            // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
             // panel2
             // 
             panel2.Controls.Add(label1);
@@ -135,6 +125,27 @@
             label1.Size = new Size(38, 15);
             label1.TabIndex = 0;
             label1.Text = "label1";
+            // 
+            // ucPosts1
+            // 
+            ucPosts1.Dock = DockStyle.Bottom;
+            ucPosts1.Location = new Point(0, 347);
+            ucPosts1.Name = "ucPosts1";
+            ucPosts1.Size = new Size(615, 103);
+            ucPosts1.TabIndex = 1;
+            // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // ucMessages1
+            // 
+            ucMessages1.Dock = DockStyle.Fill;
+            ucMessages1.Location = new Point(0, 71);
+            ucMessages1.Name = "ucMessages1";
+            ucMessages1.Size = new Size(615, 276);
+            ucMessages1.TabIndex = 3;
             // 
             // Form1
             // 
@@ -166,5 +177,6 @@
         private ucPosts ucPosts1;
         private Panel panel2;
         private Label label1;
+        private ucMessages ucMessages1;
     }
 }

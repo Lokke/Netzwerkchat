@@ -1,0 +1,23 @@
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [
+    "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Properties\\Resources.resx"
+  ],
+  "ExpandedProjects": [
+    "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Netzwerkchat.csproj"
+  ],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "file-path",
+    "file-name",
+    "type",
+    "neutral-value",
+    "neutral-comment"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-comment",
+    "neutral-value"
+  ]
+}

@@ -34,19 +34,21 @@
             // lblMessage
             // 
             lblMessage.AutoSize = true;
-            lblMessage.Location = new Point(71, 41);
+            lblMessage.Location = new Point(12, 12);
             lblMessage.Name = "lblMessage";
             lblMessage.Size = new Size(38, 15);
             lblMessage.TabIndex = 0;
             lblMessage.Text = "label1";
+            lblMessage.ForeColor = System.Drawing.Color.Black;
             // 
             // ucMessage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.Transparent;
             Controls.Add(lblMessage);
             Name = "ucMessage";
-            Size = new Size(465, 112);
+            Size = new Size(465, 90);
             Paint += ucMessage_Paint;
             ResumeLayout(false);
             PerformLayout();

@@ -1,0 +1,164 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Netzwerkchat
+{
+    public enum BubblePosition
+    {
+        Left,
+        Right
+    }
+
+    public partial class ucMessage : UserControl
+    {
+#pragma warning disable WFO1000 // Missing code serialization configuration for property content
+
+        public string MessageContent
+#pragma warning restore WFO1000 // Missing code serialization configuration for property content
+        {
+            set { this.lblMessage.Text = value; }
+            get { return this.lblMessage.Text; }
+        }
+
+        private BubblePosition _bubblePosition = BubblePosition.Right;
+        public BubblePosition BubblePosition
+        {
+            get { return _bubblePosition; }
+            set 
+            { 
+                _bubblePosition = value;
+                AdjustLabelPosition();
+                this.Invalidate();
+            }
+        }
+
+        private Color _bubbleColor = Color.FromArgb(230, 230, 230);
+        public Color BubbleColor
+        {
+            get { return _bubbleColor; }
+            set 
+            { 
+                _bubbleColor = value;
+                this.Invalidate();
+            }
+        }
+
+        private Color _textColor = Color.Black;
+        public Color TextColor
+        {
+            get { return _textColor; }
+            set 
+            { 
+                _textColor = value;
+                lblMessage.ForeColor = value;
+            }
+        }
+
+        private const int CornerRadius = 15;
+        private const int TriangleSize = 12;
+        private const int Padding = 12;
+
+        public ucMessage()
+        {
+            InitializeComponent();
+            this.DoubleBuffered = true;
+        }
+
+        private void AdjustLabelPosition()
+        {
+            if (_bubblePosition == BubblePosition.Left)
+            {
+                lblMessage.Location = new Point(Padding + TriangleSize, Padding);
+            }
+            else
+            {
+                lblMessage.Location = new Point(Padding, Padding);
+            }
+        }
+
+        private GraphicsPath CreateBubblePath()
+        {
+            GraphicsPath path = new GraphicsPath();
+            int width = this.Width;
+            int height = this.Height;
+
+            // Top-left corner (arc)
+            path.AddArc(Padding, Padding, CornerRadius * 2, CornerRadius * 2, 180, 90);
+
+            // Top line
+            path.AddLine(Padding + CornerRadius, Padding, width - Padding - CornerRadius, Padding);
+
+            // Top-right corner (arc)
+            path.AddArc(width - Padding - CornerRadius * 2, Padding, CornerRadius * 2, CornerRadius * 2, 270, 90);
+
+            if (_bubblePosition == BubblePosition.Right)
+            {
+                // Right line (top part)
+                path.AddLine(width - Padding, Padding + CornerRadius, width - Padding, height - Padding - CornerRadius - TriangleSize);
+
+                // Bottom-right corner (arc)
+                path.AddArc(width - Padding - CornerRadius * 2, height - Padding - CornerRadius * 2 - TriangleSize, CornerRadius * 2, CornerRadius * 2, 0, 90);
+
+                // Triangle point at bottom-right
+                int baseX = width - Padding - CornerRadius;
+                int baseY = height - Padding - TriangleSize;
+                path.AddLine(width - Padding - CornerRadius - CornerRadius, height - Padding - TriangleSize, baseX + TriangleSize, baseY + TriangleSize);
+                path.AddLine(baseX + TriangleSize, baseY + TriangleSize, baseX + TriangleSize / 2, baseY);
+            }
+            else
+            {
+                // Left line (top part)
+                path.AddLine(width - Padding, Padding + CornerRadius, width - Padding, height - Padding - CornerRadius - TriangleSize);
+
+                // Bottom-right corner (arc)
+                path.AddArc(width - Padding - CornerRadius * 2, height - Padding - CornerRadius * 2 - TriangleSize, CornerRadius * 2, CornerRadius * 2, 0, 90);
+
+                // Triangle point at bottom-left
+                int baseX = Padding + CornerRadius;
+                int baseY = height - Padding - TriangleSize;
+                path.AddLine(width - Padding - CornerRadius - CornerRadius, height - Padding - TriangleSize, baseX - TriangleSize, baseY + TriangleSize);
+                path.AddLine(baseX - TriangleSize, baseY + TriangleSize, baseX - TriangleSize / 2, baseY);
+            }
+
+            // Bottom line
+            path.AddLine(Padding + CornerRadius, height - Padding - TriangleSize, width - Padding - CornerRadius, height - Padding - TriangleSize);
+
+            // Bottom-left corner (arc)
+            path.AddArc(Padding, height - Padding - CornerRadius * 2 - TriangleSize, CornerRadius * 2, CornerRadius * 2, 90, 90);
+
+            // Left line
+            path.AddLine(Padding, height - Padding - CornerRadius - TriangleSize, Padding, Padding + CornerRadius);
+
+            path.CloseFigure();
+            return path;
+        }
+
+        private void ucMessage_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            e.Graphics.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+
+            // Fill bubble
+            using (GraphicsPath bubblePath = CreateBubblePath())
+            {
+                using (SolidBrush brush = new SolidBrush(_bubbleColor))
+                {
+                    e.Graphics.FillPath(brush, bubblePath);
+                }
+
+                // Border
+                using (Pen pen = new Pen(Color.FromArgb(200, 200, 200), 1))
+                {
+                    e.Graphics.DrawPath(pen, bubblePath);
+                }
+            }
+        }
+    }
+
+}

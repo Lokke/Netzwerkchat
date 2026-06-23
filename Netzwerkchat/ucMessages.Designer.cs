@@ -31,9 +31,7 @@
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
-            ucMessage1 = new ucMessage();
             panel1.SuspendLayout();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -56,19 +54,11 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(ucMessage1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 61);
             panel2.Name = "panel2";
             panel2.Size = new Size(677, 405);
             panel2.TabIndex = 1;
-            // 
-            // ucMessage1
-            // 
-            ucMessage1.Location = new Point(108, 113);
-            ucMessage1.Name = "ucMessage1";
-            ucMessage1.Size = new Size(465, 112);
-            ucMessage1.TabIndex = 0;
             // 
             // ucMessages
             // 
@@ -80,7 +70,6 @@
             Size = new Size(677, 466);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -89,6 +78,5 @@
         private Panel panel1;
         private Label label1;
         private Panel panel2;
-        private ucMessage ucMessage1;
     }
 }

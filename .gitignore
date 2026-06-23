@@ -1,9 +1,0 @@
-.vs/
-bin/
-obj/
-*.user
-*.sln.iml
-.idea/
-.vscode/
-*.bak
-*.tmp
