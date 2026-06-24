@@ -34,6 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            
             Name = "ucBuddies";
             Size = new Size(252, 512);
             ResumeLayout(false);

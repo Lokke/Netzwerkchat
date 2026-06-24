@@ -5,6 +5,9 @@ namespace Netzwerkchat
         public Form1()
         {
             InitializeComponent();
+            Network network = new Network();
+            network.receiveBroadcast();
+
         }
     }
 }

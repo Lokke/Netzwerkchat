@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Netzwerkchat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8951aa26359a8bb797272cf996574604c3645bef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b531255d1c132de22d4d80afab0737552e7fc7b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Netzwerkchat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Netzwerkchat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

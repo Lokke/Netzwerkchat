@@ -26,6 +26,7 @@
         /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
         private void InitializeComponent()
         {
             panel1 = new Panel();
@@ -48,12 +49,13 @@
             // panel2
             // 
             panel2.Controls.Add(tableLayoutPanel1);
-            panel2.Dock = DockStyle.Fill;
+                        panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 1);
             panel2.Name = "panel2";
             panel2.Padding = new Padding(12, 10, 12, 10);
             panel2.Size = new Size(627, 63);
             panel2.TabIndex = 1;
+            panel2.AutoScroll = true;   
             // 
             // tableLayoutPanel1
             // 
@@ -91,7 +93,11 @@
             txtPost.Margin = new Padding(0, 0, 10, 0);
             txtPost.Multiline = true;
             txtPost.Name = "txtPost";
-            txtPost.ScrollBars = ScrollBars.Vertical;
+            // ugly - mb sm else           
+            // deactivated till I find a better solution
+            // txtPost.ScrollBars = ScrollBars.Vertical;
+            
+            
             txtPost.Size = new Size(515, 43);
             txtPost.TabIndex = 0;
             // 

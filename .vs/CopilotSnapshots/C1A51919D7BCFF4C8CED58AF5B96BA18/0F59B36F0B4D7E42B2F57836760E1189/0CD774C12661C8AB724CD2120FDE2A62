@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Net.Sockets;
+using System.Text;
+using System.Net;
+
+namespace Netzwerkchat
+{
+    internal class Network
+    {
+        public void sendBroadcast()
+        {
+            UdpClient udpClient = new UdpClient();
+            udp.Connect(IPAddress.Parse("192.168.131.255"), 1234);
+        }
+    }
+}
