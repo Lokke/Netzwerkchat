@@ -1,11 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Avalonia.Media;
+using Avalonia.Layout;
 
 namespace Netzwerkchat
 {
     public class vecMessage
     {
-        public string MessageContent;
+        public string Sender { get; set; } = string.Empty;
+
+        public string MessageContent { get; set; } = string.Empty;
+
+        public bool IsOwnMessage { get; set; }
+
+        public HorizontalAlignment BubbleAlignment { get; set; } = HorizontalAlignment.Left;
+
+        public IBrush BubbleBackground { get; set; } = Brushes.SlateGray;
+
+        public IBrush BubbleForeground { get; set; } = Brushes.White;
     }
 }

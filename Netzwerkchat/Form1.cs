@@ -6,7 +6,7 @@ namespace Netzwerkchat
         {
             InitializeComponent();
             Network network = new Network();
-            network.receiveBroadcast();
+            network.initThreads();
 
         }
     }
