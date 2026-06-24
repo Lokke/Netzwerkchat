@@ -9,6 +9,14 @@ namespace Netzwerkchat
 {
     internal class Network
     {
+        public Thread bcReceiver;
+
+        public  Network()
+        {
+            bcReceiver = new Thread(new ThreadStart(receiveBroadcast));
+            bcReceiver.IsBackground = true;
+            bcReceiver.Start();
+        }
         public void sendBroadcast(string message)
         {
             UdpClient udp = new UdpClient();
@@ -25,6 +33,7 @@ namespace Netzwerkchat
             Trace.WriteLine(Encoding.UTF8.GetString(b));
             string zeichen = Encoding.UTF8.GetString(b);
             Trace.WriteLine(zeichen);
+            udp.Close();
         }
 
     }
