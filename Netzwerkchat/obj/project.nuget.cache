@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ofLT2ZywFe4=",
+  "dgSpecHash": "eZzChXYyxEw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lokke\\source\\repos\\Netzwerkchat\\Netzwerkchat\\Netzwerkchat.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/lokke/Dokumente/git/cit/netzwerkchat/Netzwerkchat/Netzwerkchat/Netzwerkchat.csproj",
+  "expectedPackageFiles": [
+    "/home/lokke/.nuget/packages/microsoft.windowsdesktop.app.ref/10.0.9/microsoft.windowsdesktop.app.ref.10.0.9.nupkg.sha512",
+    "/home/lokke/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.9/microsoft.aspnetcore.app.ref.10.0.9.nupkg.sha512"
+  ],
   "logs": []
 }
