@@ -10,7 +10,7 @@ namespace Netzwerkchat
 {
     public partial class MainWindow : Window
     {
-        private readonly Network network;
+        private readonly Network? network;
 
         public ObservableCollection<vecBuddy> Buddies { get; } = new();
 
@@ -30,6 +30,11 @@ namespace Netzwerkchat
             // Willkommensnachricht
             Messages.Add(CreateMessage("System", "Chat gestartet.", false));
 
+            if (Design.IsDesignMode)
+            {
+                return;
+            }
+
             // Netzwerk starten
             network = new Network();
 
@@ -44,6 +49,11 @@ namespace Netzwerkchat
 
         private void MainWindow_Closed(object? sender, EventArgs e)
         {
+            if (network is null)
+            {
+                return;
+            }
+
             network.MessageReceived -= OnMessageReceived;
             network.Dispose();
         }
@@ -72,7 +82,10 @@ namespace Netzwerkchat
             MessageInput.Clear();
             ScrollToLatestMessage();
 
-            await network.SendBroadcastAsync(Environment.UserName, message);
+            if (network is not null)
+            {
+                await network.SendBroadcastAsync(Environment.UserName, message);
+            }
         }
 
         private void OnMessageReceived(object? sender, vecChatPacket packet)
