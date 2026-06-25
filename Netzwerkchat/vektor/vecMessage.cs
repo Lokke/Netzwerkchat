@@ -1,5 +1,5 @@
-﻿using Avalonia.Media;
 using Avalonia.Layout;
+using Avalonia.Media;
 
 namespace Netzwerkchat
 {

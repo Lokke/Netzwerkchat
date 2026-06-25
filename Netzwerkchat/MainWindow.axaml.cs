@@ -32,12 +32,13 @@ namespace Netzwerkchat
 
             // Netzwerk starten
             network = new Network();
+
             network.MessageReceived += OnMessageReceived;
             network.Start();
 
-            // Events
             SendButton.Click += SendButton_OnClick;
             MessageInput.KeyDown += MessageInput_OnKeyDown;
+
             Closed += MainWindow_Closed;
         }
 
@@ -74,7 +75,7 @@ namespace Netzwerkchat
             await network.SendBroadcastAsync(Environment.UserName, message);
         }
 
-        private void OnMessageReceived(object? sender, ChatPacket packet)
+        private void OnMessageReceived(object? sender, vecChatPacket packet)
         {
             Dispatcher.UIThread.Post(() =>
             {
