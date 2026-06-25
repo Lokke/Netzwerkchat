@@ -27,11 +27,13 @@
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center" />
           </Border>
-          <TextBlock Text="USERNAME"
+              <TextBlock x:Name="UsernameText"
+                 Text="USERNAME"
                      FontSize="24"
                      FontWeight="SemiBold"
                      Foreground="White" />
-          <TextBlock Text="STATUS: Online"
+              <TextBlock x:Name="StatusText"
+                 Text="STATUS: Online"
                      Foreground="#94A3B8"
                      TextWrapping="Wrap" />
         </StackPanel>
@@ -44,7 +46,8 @@
                        FontWeight="SemiBold"
                        Foreground="White"
                        FontSize="16" />
-            <ListBox ItemsSource="{Binding Buddies}"
+            <ListBox x:Name="BuddyList"
+                     ItemsSource="{Binding Buddies}"
                      Background="Transparent"
                      BorderThickness="0">
               <ListBox.ItemTemplate>
@@ -102,7 +105,8 @@
                        FontSize="22"
                        FontWeight="SemiBold"
                        Foreground="#0F172A" />
-            <TextBlock Text="TOPIC HERE"
+            <TextBlock x:Name="ChatTopicText"
+                       Text="Broadcast"
                        Foreground="#64748B" />
           </StackPanel>
         </Border>

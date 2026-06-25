@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace Netzwerkchat
@@ -8,7 +9,9 @@ namespace Netzwerkchat
         private readonly string clientId = Guid.NewGuid().ToString("N");
         private readonly UdpBroadcastReceiver receiver = new();
 
-        public event EventHandler<vecChatPacket>? MessageReceived;
+        public string ClientId => clientId;
+
+        public event EventHandler<vecPacketReceivedEventArgs>? MessageReceived;
 
         public Network()
         {
@@ -20,26 +23,55 @@ namespace Netzwerkchat
             receiver.Start();
         }
 
-        public async Task SendBroadcastAsync(string senderName, string message)
+        public Task SendPresenceAsync(string senderName)
+        {
+            return SendAsync(vecChatPacketKind.Presence, senderName, string.Empty, string.Empty, IPAddress.Broadcast);
+        }
+
+        public Task SendHelloAsync(string senderName, IPAddress remoteAddress)
+        {
+            return SendAsync(vecChatPacketKind.Hello, senderName, "Hallo", string.Empty, remoteAddress);
+        }
+
+        public Task SendBroadcastAsync(string senderName, string message)
+        {
+            return SendAsync(vecChatPacketKind.Broadcast, senderName, message, string.Empty, IPAddress.Broadcast);
+        }
+
+        public Task SendDirectAsync(string senderName, string message, string recipientClientId, IPAddress remoteAddress)
+        {
+            return SendAsync(vecChatPacketKind.Direct, senderName, message, recipientClientId, remoteAddress);
+        }
+
+        private async Task SendAsync(vecChatPacketKind kind, string senderName, string message, string recipientClientId, IPAddress remoteAddress)
         {
             vecChatPacket packet = new()
             {
                 ClientId = clientId,
+                Kind = kind,
                 SenderName = senderName,
+                RecipientClientId = recipientClientId,
                 Message = message,
                 Timestamp = DateTimeOffset.Now
             };
-            await UdpBroadcastSender.SendAsync(packet);
+
+            if (remoteAddress.Equals(IPAddress.Broadcast))
+            {
+                await UdpBroadcastSender.SendBroadcastAsync(packet);
+                return;
+            }
+
+            await UdpBroadcastSender.SendDirectAsync(packet, remoteAddress);
         }
 
-        private void Receiver_PacketReceived(object? sender, vecChatPacket packet)
+        private void Receiver_PacketReceived(object? sender, vecPacketReceivedEventArgs e)
         {
-            if (packet.ClientId == clientId)
+            if (e.Packet.ClientId == clientId)
             {
                 return;
             }
 
-            MessageReceived?.Invoke(this, packet);
+            MessageReceived?.Invoke(this, e);
         }
 
         public void Dispose()
