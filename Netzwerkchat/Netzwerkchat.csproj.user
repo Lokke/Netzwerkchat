@@ -1,23 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Compile Update="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ucBuddies.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucBuddy.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucMessage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucMessages.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="ucPosts.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-  </ItemGroup>
+  <ItemGroup />
 </Project>
